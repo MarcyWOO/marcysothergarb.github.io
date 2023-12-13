@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<tracking enabled="true">
+		<gameName></gameName>
+		
+		<deltaDNA>
+			<!-- DeltaDNA collection URL -->
+			<url>https://collect11934sktch.deltadna.net/collect/api</url>
+			<!-- The tracking key to use for debug builds. -->
+			<debugKey>29543555442550375942572137915041</debugKey>
+			<!-- The tracking key to use for release builds. -->
+			<releaseKey>29543568152100928567804887315041</releaseKey>
+		</deltaDNA>
+	</tracking>
+
+	<options>
+		<international>false</international>
+		<voiceEnabled>true</voiceEnabled>
+		<piracy><![CDATA[aHR0cDovL3d3dy5uaWNrLmNvbS9tYXNoLXVwcy9nYW1lcy9uaWNrZWxvZGVvbi1ibGFzdGVyLXNxdWFkLw==]]></piracy>
+	</options>
+
+</config>
