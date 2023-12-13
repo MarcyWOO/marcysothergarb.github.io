@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+========================
+	SAMPLE SECTION
+========================
+
+<title>
+	<gameName fontScale="1" offsetY="0" offsetX="0"><![CDATA[GAME NAME HERE]]></gameName>
+</title>
+
+The id for this would be title.gameName.  The text, font, font size, and alignment would all be set for us.
+
+Any tags omitted would use the default text field's values.
+-->
+
+<strings>
+
+
+	<loading>
+		<progress><![CDATA[LOADING {{progress}}%]]></progress>
+	</loading>
+
+	<title>
+		<sketchIt><![CDATA[sketch it,]]></sketchIt>
+		<guessIt><![CDATA[GUESS IT]]></guessIt>
+		<clickToStart><![CDATA[CLICK ANYWHERE TO PLAY!]]></clickToStart>
+		<tapToStart><![CDATA[TAP ANYWHERE TO PLAY!]]></tapToStart>
+	</title>
+
+	<pause>
+		<header><![CDATA[PAUSED]]></header>
+		<confirm><![CDATA[ARE YOU SURE<br>YOU WANT TO QUIT?]]></confirm>
+		<yes><![CDATA[YES]]></yes>
+		<no><![CDATA[NO]]></no>
+	</pause>
+
+	<instructions>
+		<genericHeader><![CDATA[INSTRUCTIONS]]></genericHeader>
+		<genericBody><![CDATA[GAMEPLAY INSTRUCTIONS GO HERE.]]></genericBody>
+	</instructions>
+
+	<difficulties>
+		<easy fontScale="1"><![CDATA[Doodler]]></easy>
+		<medium fontScale="1"><![CDATA[Illustrator]]></medium>
+		<hard fontScale="1"><![CDATA[Master Artist]]></hard>
+	</difficulties>
+
+	<modeSelect>
+		<header fontScale="1"><![CDATA[MODE SELECT]]></header>
+		<controls fontScale="1"><![CDATA[CONTROLS]]></controls>
+		<sketch fontScale="1"><![CDATA[SKETCH]]></sketch>
+		<memory fontScale="1"><![CDATA[MEMORY]]></memory>
+		<mouse fontScale="1"><![CDATA[MOUSE]]></mouse>
+		<trackpad fontScale="1"><![CDATA[TRACKPAD]]></trackpad>
+	</modeSelect>
+
+	<puzzleSelect>
+		<bestTime fontScale="1"><![CDATA[BEST ]]></bestTime>
+		<challenges fontScale="1"><![CDATA[CHALLENGES]]></challenges>
+		<easyHeader fontScale="1"><![CDATA[DOODLER]]></easyHeader>
+		<mediumHeader fontScale="1"><![CDATA[ILLUSTRATOR]]></mediumHeader>
+		<hardHeader fontScale="1"><![CDATA[MASTER ARTIST]]></hardHeader>
+	</puzzleSelect>
+
+	<puzzle>
+		<alien fontScale="1"><![CDATA[Alien.]]></alien>
+		<angryPants fontScale="1"><![CDATA[Angry pants?]]></angryPants>
+		<baby fontScale="1"><![CDATA[Baby!]]></baby>
+		<balloon fontScale="1"><![CDATA[Balloon!]]></balloon>
+		<barnacleBoy fontScale="1"><![CDATA[Barnacle Boy!]]></barnacleBoy>
+		<bellyScratcher fontScale="1"><![CDATA[Belly scratcher!]]></bellyScratcher>
+		<bigBigMan fontScale="1"><![CDATA[A big, BIG Man.]]></bigBigMan>
+		<bigDummy fontScale="1"><![CDATA[Big dummy.]]></bigDummy>
+		<bigMan fontScale="1"><![CDATA[A big man.]]></bigMan>
+		<bigToe fontScale="1"><![CDATA[Big toe!]]></bigToe>
+		<bigYellowCube fontScale="1"><![CDATA[A big, yellow cube... with holes!]]></bigYellowCube>
+		<candyBar fontScale="1"><![CDATA[Candy Bar!]]></candyBar>
+		<cheese fontScale="1"><![CDATA[Cheese.]]></cheese>
+		<chicken fontScale="1"><![CDATA[Chicken!]]></chicken>
+		<chocolate fontScale="1"><![CDATA[Chocolate?]]></chocolate>
+		<coconut fontScale="1"><![CDATA[Coconut!]]></coconut>
+		<cookie fontScale="1"><![CDATA[Cookie!]]></cookie>
+		<cookies fontScale="1"><![CDATA[Cookies!]]></cookies>
+		<dirtyDan fontScale="1"><![CDATA[Dirty Dan.]]></dirtyDan>
+		<doctor fontScale="1"><![CDATA[Doctor!]]></doctor>
+		<donuts fontScale="1"><![CDATA[Donuts.]]></donuts>
+		<evilDoodle fontScale="1"><![CDATA[It's the Evil Doodle!]]></evilDoodle>
+		<fairyPrincesses fontScale="1"><![CDATA[Fairy princesses!]]></fairyPrincesses>
+		<firemen fontScale="1"><![CDATA[Firemen?]]></firemen>
+		<freeformJazz fontScale="1"><![CDATA[Freeform jazz.]]></freeformJazz>
+		<freezer fontScale="1"><![CDATA[The freezer?]]></freezer>
+		<friedOysterSkins1 fontScale="1"><![CDATA[Fried oyster skins.]]></friedOysterSkins1>
+		<friedOysterSkins2 fontScale="1"><![CDATA[I love fried oyster skins.]]></friedOysterSkins2>
+		<frozenArmpit fontScale="1"><![CDATA[Frozen armpit.]]></frozenArmpit>
+		<frozenArmpits fontScale="1"><![CDATA[Frozen armpits.]]></frozenArmpits>
+		<gary fontScale="1"><![CDATA[Gary.]]></gary>
+		<giraffe fontScale="1"><![CDATA[HAHA! HAHAH! It's a giraffe!]]></giraffe>
+		<hands fontScale="1"><![CDATA[Hands?]]></hands>
+		<hat1 fontScale="1"><![CDATA[Hat.]]></hat1>
+		<hat2 fontScale="1"><![CDATA[Another hat.]]></hat2>
+		<highschoolDiploma fontScale="1"><![CDATA[A high school diploma.]]></highschoolDiploma>
+		<hooks fontScale="1"><![CDATA[Hooks.]]></hooks>
+		<horsey fontScale="1"><![CDATA[A horsey?]]></horsey>
+		<hotWings fontScale="1"><![CDATA[Hot wings.]]></hotWings>
+		<iceCream fontScale="1"><![CDATA[Ice cream!]]></iceCream>
+		<inflatablePants fontScale="1"><![CDATA[Inflatable pants.]]></inflatablePants>
+		<invisibleBoatMobile fontScale="1"><![CDATA[The invisible boat mobile!]]></invisibleBoatMobile>
+		<invisibleSeatbelts fontScale="1"><![CDATA[Invisible seatbelts!]]></invisibleSeatbelts>
+		<island fontScale="1"><![CDATA[Island!]]></island>
+		<jellyfish fontScale="1"><![CDATA[Jellyfish!]]></jellyfish>
+		<krabbyPatty fontScale="1"><![CDATA[Krabby Patty.]]></krabbyPatty>
+		<krustyKrab1 fontScale="1"><![CDATA[Krusty Krab?]]></krustyKrab1>
+		<krustyKrab2 fontScale="1"><![CDATA[The Krusty Krab!]]></krustyKrab2>
+		<krustyKrab3 fontScale="1"><![CDATA[Krusty Krab.]]></krustyKrab3>
+		<lollipop1 fontScale="1"><![CDATA[Lollipop?]]></lollipop1>
+		<lollipop2 fontScale="1"><![CDATA[Lollipop.]]></lollipop2>
+		<lollipop2 fontScale="1"><![CDATA[Lollipop.]]></lollipop2>
+		<luckyUndergarments fontScale="1"><![CDATA[Lucky undergarments?]]></luckyUndergarments>
+		<lightsOut fontScale="1"><![CDATA[Oooooooooo...... Scary!]]></lightsOut>
+		<magicConchShell fontScale="1"><![CDATA[Ooooh... the magic conch shell.]]></magicConchShell>
+		<magicMustache fontScale="1"><![CDATA[A magic mustache!]]></magicMustache>
+		<mailbox fontScale="1"><![CDATA[MAIL BOX!]]></mailbox>
+		<mayonaise fontScale="1"><![CDATA[Mayonnaise?]]></mayonaise>
+		<mermaidMan fontScale="1"><![CDATA[Mermaid Man?]]></mermaidMan>
+		<motorboat fontScale="1"><![CDATA[Motor boat.]]></motorboat>
+		<mrKrabs fontScale="1"><![CDATA[Mr. Krabs?]]></mrKrabs>
+		<muffinMan fontScale="1"><![CDATA[The Muffin Man?]]></muffinMan>
+		<mrMonsterMan fontScale="1"><![CDATA[Mr. Seaweed Monster Man!]]></mrMonsterMan>
+		<myBirthdayCake fontScale="1"><![CDATA[My birthday cake!]]></myBirthdayCake>
+		<myCastle fontScale="1"><![CDATA[My castle!]]></myCastle>
+		<myForehead fontScale="1"><![CDATA[My forehead.]]></myForehead>
+		<myHands fontScale="1"><![CDATA[My hands?]]></myHands>
+		<mySecretBox fontScale="1"><![CDATA[My secret box.]]></mySecretBox>
+		<myShorts fontScale="1"><![CDATA[My shorts!]]></myShorts>
+		<nerdyPickle fontScale="1"><![CDATA[A nerdy pickle.]]></nerdyPickle>
+		<newShoes fontScale="1"><![CDATA[New shoes?]]></newShoes>
+		<oldMagazines fontScale="1"><![CDATA[Old magazines!]]></oldMagazines>
+		<paperGhost fontScale="1"><![CDATA[Paper ghost.]]></paperGhost>
+		<paramecium fontScale="1"><![CDATA[Paramecium?]]></paramecium>
+		<patrick1 fontScale="1"><![CDATA[Patrick!]]></patrick1>
+		<patrick2 fontScale="1"><![CDATA[Patrick.]]></patrick2>
+		<patrickSquarePants fontScale="1"><![CDATA[Patrick SquarePants!]]></patrickSquarePants>
+		<peanut fontScale="1"><![CDATA[Peanut?]]></peanut>
+		<pencil fontScale="1"><![CDATA[Pencil.]]></pencil>
+		<pickle fontScale="1"><![CDATA[Pickle.]]></pickle>
+		<pineapple1 fontScale="1"><![CDATA[Pineapple.]]></pineapple1>
+		<pineapple2 fontScale="1"><![CDATA[Poorly drawn pineapple.]]></pineapple2>
+		<pinhead fontScale="1"><![CDATA[Pinhead.]]></pinhead>
+		<popcorn fontScale="1"><![CDATA[Popcorn!]]></popcorn>
+		<quarter1 fontScale="1"><![CDATA[Oh my gosh! A quarter!]]></quarter1>
+		<quarter2 fontScale="1"><![CDATA[A quarter!]]></quarter2>
+		<quarter3 fontScale="1"><![CDATA[One quarter.]]></quarter3>
+		<quarter3 fontScale="1"><![CDATA[One quarter.]]></quarter3>
+		<rectangles fontScale="1"><![CDATA[RECTANGLES!!]]></rectangles>
+		<rock fontScale="1"><![CDATA[Rock?]]></rock>
+		<sandy fontScale="1"><![CDATA[Sandy.]]></sandy>
+		<scentedPineCones fontScale="1"><![CDATA[Scented pinecones.]]></scentedPineCones>
+		<seanutBrittle fontScale="1"><![CDATA[Oh boy! Seanut brittle!]]></seanutBrittle>
+		<seatbelts fontScale="1"><![CDATA[Seatbelts!]]></seatbelts>
+		<smallPlasticDisc fontScale="1"><![CDATA[Small plastic disc that you throw?]]></smallPlasticDisc>
+		<snail fontScale="1"><![CDATA[Snail!]]></snail>
+		<snowAngel fontScale="1"><![CDATA[Snow angel! Ah ha, haha!]]></snowAngel>
+		<snowAngel fontScale="1"><![CDATA[Snow angel! Ah ha, haha!]]></snowAngel>
+		<solidChocolate fontScale="1"><![CDATA[Solid chocolate?]]></solidChocolate>
+		<somethingToEat fontScale="1"><![CDATA[Something to eat?]]></somethingToEat>
+		<spatula fontScale="1"><![CDATA[A spatula?]]></spatula>
+		<spiders fontScale="1"><![CDATA[SPIDERS!!]]></spiders>
+		<squidwardActionFigure fontScale="1"><![CDATA[A Squidward action figure!]]></squidwardActionFigure>
+		<squidward fontScale="1"><![CDATA[Squidward!]]></squidward>
+		<squirrel fontScale="1"><![CDATA[A squirrel.]]></squirrel>
+		<spongebob fontScale="1"><![CDATA[SPONGEBOB!!]]></spongebob>
+		<spongebobFancyPants fontScale="1"><![CDATA[SpongeBob FancyPants!]]></spongebobFancyPants>
+		<starfish fontScale="1"><![CDATA[A starfish.]]></starfish>
+		<stethoscope fontScale="1"><![CDATA[Stethoscope!]]></stethoscope>
+		<submarine fontScale="1"><![CDATA[A submarine.]]></submarine>
+		<taxExemption fontScale="1"><![CDATA[TAX EXEMPTION!]]></taxExemption>
+		<texas fontScale="1"><![CDATA[Texas.]]></texas>
+		<toyStore fontScale="1"><![CDATA[The toy store.]]></toyStore>
+		<tree fontScale="1"><![CDATA[Tree.]]></tree>
+		<turkey fontScale="1"><![CDATA[Turkey.]]></turkey>
+		<violin fontScale="1"><![CDATA[Violin!]]></violin>
+		<water fontScale="1"><![CDATA[Water!]]></water>
+		<watermelon fontScale="1"><![CDATA[Watermelon.]]></watermelon>
+		<weatherman fontScale="1"><![CDATA[The weatherman on the news channel?]]></weatherman>
+		<whale fontScale="1"><![CDATA[Whale!]]></whale>
+		<wormy fontScale="1"><![CDATA[Wormy?]]></wormy>
+
+		<nameSpongebob><![CDATA[SpongeBob.]]></nameSpongebob>
+
+		<patrickSad fontScale="1"><![CDATA[Patrick SAD!]]></patrickSad>
+		<preGuessSound fontScale="1"><![CDATA[Ahhhooo!]]></preGuessSound>
+		<dangOhIKnow fontScale="1"><![CDATA[Dang, oh, I know!]]></dangOhIKnow>
+
+		<notBadNotBad fontScale="1"><![CDATA[Not bad, not bad.]]></notBadNotBad>
+		<noWaitDontTellMe fontScale="1"><![CDATA[No, wait, don't tell me...]]></noWaitDontTellMe>
+		<nowThatsFancy fontScale="1"><![CDATA[Now, that's fancy!]]></nowThatsFancy>
+		<oh fontScale="1"><![CDATA[OH!]]></oh>
+		<ooooh fontScale="1"><![CDATA[Ooooh!]]></ooooh>
+		<pftArtists fontScale="1"><![CDATA[Pfft. Artists.]]></pftArtists>
+		<prettyGood fontScale="1"><![CDATA[Pretty good.]]></prettyGood>
+		<wow1 fontScale="1"><![CDATA[Wow!]]></wow1>
+		<wow2 fontScale="1"><![CDATA[Wow.]]></wow2>
+		<anotherHint fontScale="1"><![CDATA[Could I have another hint?]]></anotherHint>
+		<blahBlah fontScale="1"><![CDATA[Blah blah blah blah blah, uh blah!]]></blahBlah>
+		<giveMeAHint fontScale="1"><![CDATA[Could you give me a hint?]]></giveMeAHint>
+		<hmm fontScale="1"><![CDATA[Hhhhmmmmmmmmmm.....]]></hmm>
+		<iNeedMyGlasses fontScale="1"><![CDATA[I need my glasses.]]></iNeedMyGlasses>
+
+
+		<ooh fontScale="1"><![CDATA[OOoooooooohh.....]]></ooh>
+		<takeYourTime fontScale="1"><![CDATA[That's okay, take your time.]]></takeYourTime>
+		<watchaDrawing fontScale="1"><![CDATA[Whatcha drawing?]]></watchaDrawing>
+		<barnacles fontScale="1"><![CDATA[BARNACLES!]]></barnacles>
+		<doesntLookFamiliar fontScale="1"><![CDATA[Doesn't look familiar to me...]]></doesntLookFamiliar>
+		<difficultyLevelTooAdvanced fontScale="1"><![CDATA[DIFFICULTY LEVEL TOO ADVANCED!!]]></difficultyLevelTooAdvanced>
+		<isItReadyNow fontScale="1"><![CDATA[Is it ready now?]]></isItReadyNow>
+		<moveItAlong fontScale="1"><![CDATA[Can you move it along?]]></moveItAlong>
+		<poopdeck fontScale="1"><![CDATA[The poop deck!]]></poopdeck>
+		<whatIsIt fontScale="1"><![CDATA[What is it!?]]></whatIsIt>
+		<whatIsThatThing1 fontScale="1"><![CDATA[What is that thing?]]></whatIsThatThing1>
+		<whatIsThatThing2 fontScale="1"><![CDATA[WHAT IS THAT THING!?]]></whatIsThatThing2>
+		<whatsThatThing fontScale="1"><![CDATA[What's that thing?]]></whatsThatThing>
+		<difficultyLevelTooAdvanced fontScale="1"><![CDATA[Ugh! Difficulty level too advanced!]]></difficultyLevelTooAdvanced>
+	</puzzle>
+	<!-- The names of the puzzle challenges. The tag name of these match the puzzle tag names above. -->
+	<drawingNames>
+		<draw fontScale="0.6"><![CDATA[DRAW: ]]></draw>
+		<balloon><![CDATA[A BALLOON]]></balloon>
+		<barnacleBoy><![CDATA[BARNACLE BOY]]></barnacleBoy>
+		<candyBar><![CDATA[CANDY BAR]]></candyBar>
+		<cheese><![CDATA[CHEESE]]></cheese>
+		<coconut><![CDATA[COCONUT]]></coconut>
+		<donuts><![CDATA[DONUTS]]></donuts>
+		<evilDoodle><![CDATA[EVIL DOODLE]]></evilDoodle>
+		<hat1><![CDATA[A HAT]]></hat1>
+		<iceCream><![CDATA[ICE CREAM]]></iceCream>
+		<jellyfish><![CDATA[A JELLYFISH]]></jellyfish>
+		<krabbyPatty><![CDATA[KRABBY PATTY]]></krabbyPatty>
+		<krustyKrab1><![CDATA[THE KRUSTY KRAB]]></krustyKrab1>
+		<magicConchShell><![CDATA[THE MAGIC CONCH]]></magicConchShell>
+		<mailbox><![CDATA[A MAILBOX]]></mailbox>
+		<mermaidMan><![CDATA[MERMAID MAN]]></mermaidMan>
+		<motorboat><![CDATA[MOTORBOAT]]></motorboat>
+		<mrKrabs><![CDATA[MR. KRABS]]></mrKrabs>
+		<peanut><![CDATA[A PEANUT]]></peanut>
+		<pineapple1><![CDATA[A PINEAPPLE]]></pineapple1>
+		<quarter1><![CDATA[A QUARTER]]></quarter1>
+		<rectangles><![CDATA[RECTANGLES]]></rectangles>
+		<rock><![CDATA[A ROCK]]></rock>
+		<sandy><![CDATA[SANDY]]></sandy>
+		<spatula><![CDATA[SPATULA]]></spatula>
+		<spongebob><![CDATA[SPONGEBOB]]></spongebob>
+		<squidward><![CDATA[SQUIDWARD]]></squidward>
+		<starfish><![CDATA[A STARFISH]]></starfish>		
+		<texas><![CDATA[TEXAS]]></texas>
+		<tree><![CDATA[A TREE]]></tree>
+		<luckyUndergarments><![CDATA[LUCKY UNDERGARMENTS]]></luckyUndergarments>
+		<watermelon fontScale="0.4"><![CDATA[WATERMELON]]></watermelon>
+	</drawingNames>
+	<difficulty>
+		<easy fontScale="0.3"><![CDATA[DOODLER]]></easy>
+		<medium fontScale="0.3"><![CDATA[ILLUSTRATOR]]></medium>
+		<hard fontScale="0.3"><![CDATA[MASTER ARTIST]]></hard>
+		<easyChallenge fontScale="1"><![CDATA[DOODLER CHALLENGE]]></easyChallenge>
+		<mediumChallenge fontScale="1"><![CDATA[ILLUSTRATOR CHALLENGE]]></mediumChallenge>
+		<hardChallenge fontScale="1"><![CDATA[MASTER ARTIST CHALLENGE]]></hardChallenge>
+	</difficulty>
+	<gameplay>
+		<countdownDraw fontScale="1"><![CDATA[DRAW!]]></countdownDraw>
+		<btnDraw fontScale="1"><![CDATA[READY?]]></btnDraw>
+		<btnDone offsetX="5" fontScale="1.1"><![CDATA[DONE]]></btnDone>
+		<doneConfirm fontScale="1"><![CDATA[ARE YOU SURE YOU'RE READY TO HAVE PATRICK MAKE ONE LAST GUESS?]]></doneConfirm>
+		<noBubbleConfirm fontScale="1"><![CDATA[YOU HAVEN'T PLACED ANY BUBBLES. ARE YOU SURE YOU'RE READY?]]></noBubbleConfirm>
+	</gameplay>
+	<sketchTutorial>
+		<btnDone fontScale="1"><![CDATA[DONE]]></btnDone>
+		<spacebar fontScale="1"><![CDATA[SPACE]]></spacebar>
+		<trackpadIntro fontScale="1"><![CDATA[Hold down the spacebar and trace the white dashed line.]]></trackpadIntro>
+		<mouseIntro fontScale="1"><![CDATA[Hold down the mouse button and use it to trace the white dashed line.]]></mouseIntro>
+		<touchIntro fontScale="1"><![CDATA[Trace the white dashed line with your finger.]]></touchIntro>
+		<dottedHint fontScale="1"><![CDATA[Oops! Make sure only to trace the white dashed lines. Let's try that again!]]></dottedHint>
+		<sketchSuccess fontScale="1"><![CDATA[Then let Patrick guess what it is!]]></sketchSuccess>
+		<timer fontScale="1"><![CDATA[And get him to do it quickly!]]></timer>
+		<reset fontScale="1"><![CDATA[If you mess up, try the Reset button.]]></reset>
+		<done fontScale="1"><![CDATA[Ready for Patrick to make his final guess? Hit "Done"]]></done>
+	</sketchTutorial>
+	<memoryTutorial>
+		<btnDraw fontScale="1"><![CDATA[READY?]]></btnDraw>
+		<intro fontScale="1"><![CDATA[Ready to put your memory to the test?]]></intro>
+		<placeBubbles fontScale="1"><![CDATA[First, place bubbles to mark the shape of your drawing.]]></placeBubbles>
+		<continuePlaceBubbles fontScale="1"><![CDATA[Excellent! Now keep placing the rest.]]></continuePlaceBubbles>
+		<bubblesPlacedDesktop fontScale="1"><![CDATA[Click here when you're done placing bubbles.]]></bubblesPlacedDesktop>
+		<bubblesPlacedMobile fontScale="1"><![CDATA[Tap here when you're done placing bubbles.]]></bubblesPlacedMobile>
+		<linesFade fontScale="1"><![CDATA[The white dashed line fades away, leaving only the bubbles.]]></linesFade>
+		<hintDesktop fontScale="1"><![CDATA[Can't remember what to trace? Click the Hint button!]]></hintDesktop>
+		<hintMobile fontScale="1"><![CDATA[Can't remember what to trace? Tap the Hint button!]]></hintMobile>
+		<draw fontScale="1"><![CDATA[Use the bubbles as guides to draw where the white dashed line was.]]></draw>
+		<tryAgain fontScale="1"><![CDATA[Oops! You went too far off where the white dashed line was. Let's try that again!]]></tryAgain>
+	</memoryTutorial>
+	<results>
+		<failHead fontScale="1"><![CDATA[TRY AGAIN!]]></failHead>
+		<failHint fontScale="1"><![CDATA[STEADY NOW! MAKE SURE TO ONLY DRAW ON THE WHITE DASHED LINE!]]></failHint>
+		<winHead fontScale="1"><![CDATA[GREAT JOB!]]></winHead>
+		<winStandardMessage fontScale="1"><![CDATA[YOU HAVE QUITE THE EYE! HIT REPLAY TO BEAT YOUR TIME!]]></winStandardMessage>
+		<winWithNewHighScoreMessage fontScale="1"><![CDATA[YOU WERE BORN TO DRAW! BRAVO!]]></winWithNewHighScoreMessage>
+		<bestTime fontScale="1"><![CDATA[BEST TIME]]></bestTime>
+		<previousBest fontScale="1"><![CDATA[PREV BEST]]></previousBest>
+		<time fontScale="1"><![CDATA[TIME]]></time>
+		<unlocked fontScale="1"><![CDATA[UNLOCKED]]></unlocked>
+		<doodler fontScale="1"><![CDATA[DOODLER]]></doodler>
+		<illustrator fontScale="1"><![CDATA[ILLUSTRATOR]]></illustrator>
+		<master fontScale="1"><![CDATA[MASTER ARTIST]]></master>
+		<memoryMode fontScale="1"><![CDATA[MEMORY MODE]]></memoryMode>
+	</results>
+</strings>
