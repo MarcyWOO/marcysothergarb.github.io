@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Big City Greens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script type="text/javascript" src="https://cdn1.edgedatg.com/tml/apps/dnow/games/framework/latest/dsny-framework/minified/disneyJs.min.js"></script>
+    <script>
+        function callExternalAnalytics(pName) {
+            if (DisneyJS && DisneyJS.nativeCall) {
+                console.trace("Analytics: " + pName);
+
+                DisneyJS.nativeCall(
+                    {
+                        msg: "sendGameEvent",
+                        payload: {eventType: "event34",subgameName: pName,
+                        networkAttribution: "dnw", showName: "BigCityGreens"} 
+                    });
+            }
+        }
+    </script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+<script defer src="main.js"></script></head>
+<body>
+    <div id="content" style="overflow: hidden; width: 100%; height: 100%;"></div>
+</body>
+</html>
