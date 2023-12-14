@@ -1,0 +1,27 @@
+
+loading_square.png
+size: 344,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loading_body
+  rotate: false
+  xy: 2, 2
+  size: 201, 201
+  orig: 203, 203
+  offset: 1, 1
+  index: -1
+loading_eye_open
+  rotate: true
+  xy: 205, 17
+  size: 186, 76
+  orig: 188, 78
+  offset: 1, 1
+  index: -1
+loading_eye_shut
+  rotate: true
+  xy: 283, 18
+  size: 185, 59
+  orig: 187, 61
+  offset: 1, 1
+  index: -1
