@@ -13,7 +13,10 @@
 <script type="text/javascript" src="http://www-tc.pbskids.org/includes/javascript/bridge.urls.js"></script>
 <script type="text/javascript" src="http://www-tc.pbskids.org/includes/javascript/bridge.js"></script>
 </head>
-
+<head>
+    <link href="https://cdn.jsdelivr.net/gh/nate-games/waflash@main/style.css"
+        rel="stylesheet" type="text/css">
+</head>
 <body>
 <script>
     var lookupTable = {
@@ -169,7 +172,7 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
     c1:2,
     c2:3005420,
     c3:"",
-    c4:"r53-vip-soup.pbskids.org/storyfactory/index.html",
+    c4:"/storyfactory/index.html",
     c5:"",
     c6:"",
     c15:""
@@ -265,10 +268,15 @@ document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga
               <area shape="rect" coords="448,386,520,420" alt="Download Flash Player" href="http://pbskids.org/cgi-registry/kidsbridge.cgi?context=storyfactory_flash">
               </map>
           </div><!-- #flashcontent -->
-          <script type="text/javascript">
-              var fo = new SWFObject("homepage.swf", "storyfactory", "824", "557", "7", "#ffc96b");
-              fo.write("flashcontent");
-         </script>
+          <script>
+        var gameConfig = {
+            swfUrl: "http://marcywoo.github.io/rehosting/storycreator/homepage.swf"
+        }
+    </script>
+    <div id="waflashContainer">
+        <canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+        <div id="waflashStatus" style="display: none;">Playing...</div>
+<script src="https://cdn.jsdelivr.net/gh/nate-games/waflash@main/main.js"  rossorigin="anonymous" type="module"></script>
       </div><!-- #right -->
       
       <div id="footer">
